@@ -1,0 +1,32 @@
+.form-element,
+.form-element-sm {
+  @apply flex flex-1 font-normal rounded-lg bg-white text-[#131712] placeholder:text-[#6d8566] border border-[#dee4dc] focus:outline-0 focus:ring-0 focus:border-[#dee4dc] overflow-hidden disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+.form-element {
+  @apply text-base h-14 p-[15px];
+}
+
+.form-element.pl-10 {
+  padding-left: 2.5rem !important;
+}
+
+.form-element-sm {
+  @apply text-sm p-2;
+}
+
+.form-element-sm.pl-10 {
+  padding-left: 2.5rem !important;
+}
+
+.form-element--error {
+  @apply border-red-500 focus:border-red-500 ring-1 ring-red-500;
+}
+
+.form-error-message {
+  @apply text-red-500 text-sm mt-1;
+}
+
+.form-section {
+  @apply flex flex-col flex-wrap gap-4 px-4 py-3;
+}

@@ -1,0 +1,20 @@
+yarn run v1.22.22
+$ /home/kajo/projekty/meal-planner/node_modules/.bin/cypress run --spec cypress/e2eclear
+transactions/transactions.cy.ts --reporter json
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        14.5.2                                                                         │
+  │ Browser:        Electron 130 (headless)                                                        │
+  │ Node Version:   v22.17.0 (/home/kajo/.nvm/versions/node/v22.17.0/bin/node)                     │
+  │ Specs:          1 found (transactions.cy.ts)                                                   │
+  │ Searched:       cypress/e2e/flow/transactions/transactions.cy.ts                               │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  transactions.cy.ts                                                              (1 of 1)

@@ -1,0 +1,206 @@
+{
+  "profile": {
+    "title": "Ustawienia profilu",
+    "currencyLabel": "Preferowana waluta",
+    "currencyDollar": "Dolar amerykański ($)",
+    "currencyZloty": "Polski złoty (zł)",
+    "currencyUSD": "Dolar amerykański ($)",
+    "currencyPLN": "Polski złoty (zł)",
+    "nameLabel": "Imię i nazwisko",
+    "namePlaceholder": "Wpisz swoje imię i nazwisko",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Wpisz swój adres email",
+    "saveButton": "Zapisz zmiany",
+    "languageLabel": "Język aplikacji",
+    "notificationsLabel": "Powiadomienia",
+    "notifyBudgetLabel": "Alerty o przekroczeniu budżetu",
+    "notifyReminderLabel": "Przypomnienia o dodaniu wydatku"
+  },
+  "app": {
+    "name": "BudgetWise"
+  },
+  "navigation": {
+    "dashboard": "Panel",
+    "expenses": "Wydatki",
+    "income": "Przychody",
+    "transactions": "Transakcje"
+  },
+  "transactions": {
+    "title": "Transakcje",
+    "table": {
+      "date": "Data",
+      "description": "Opis",
+      "category": "Kategoria",
+      "type": "Typ",
+      "amount": "Kwota",
+      "actions": "Akcje",
+      "noData": "Brak transakcji"
+    },
+    "search": {
+      "placeholder": "Szukaj transakcji..."
+    },
+    "meta": {
+      "description": "Zarządzaj swoimi transakcjami finansowymi",
+      "keywords": "transakcje, budżet, finanse, zarządzanie pieniędzmi",
+      "editDescription": "Edytuj istniejącą transakcję w systemie zarządzania budżetem",
+      "addDescription": "Dodaj nową transakcję do systemu zarządzania budżetem"
+    },
+    "actions": {
+      "new": "Nowa Transakcja",
+      "loadDummyData": "Załaduj przykładowe dane"
+    },
+    "addSuccess": "Transakcja została dodana pomyślnie!",
+    "addError": "Nie udało się dodać transakcji",
+    "edit": "Edytuj transakcję",
+    "notFound": "Nie znaleziono transakcji",
+    "updateSuccess": "Transakcja została zaktualizowana pomyślnie!",
+    "updateError": "Nie udało się zaktualizować transakcji",
+    "amount": "Kwota",
+    "description": "Opis",
+    "date": "Data",
+    "type": "Typ",
+    "category": "Kategoria",
+    "update": "Aktualizuj",
+    "add": "Dodaj",
+    "amountRequired": "Kwota jest wymagana",
+    "amountPositive": "Kwota musi być większa niż 0",
+    "descriptionRequired": "Opis jest wymagany",
+    "descriptionMin": "Opis musi mieć co najmniej 3 znaki",
+    "dateRequired": "Data jest wymagana",
+    "dateTooEarly": "Data nie może być wcześniejsza niż {min}",
+    "dateTooLate": "Data nie może być późniejsza niż {max}",
+    "dateInvalidRange": "Data musi być z zakresu od {min} do {max}",
+    "typeRequired": "Typ jest wymagany",
+    "categoryRequired": "Kategoria jest wymagana",
+    "cancel": "Anuluj",
+    "types": {
+      "income": "Przychód",
+      "expense": "Wydatek"
+    },
+    "filters": {
+      "last7Days": "Ostatnie 7 dni",
+      "last30Days": "Ostatnie 30 dni",
+      "thisMonth": "Ten miesiąc",
+      "lastMonth": "Poprzedni miesiąc",
+      "thisYear": "Ten rok"
+    },
+    "resetFilters": "Resetuj filtry",
+    "addNew": "Dodaj nową transakcję"
+  },
+  "notifications": {
+    "title": "Powiadomienia"
+  },
+  "user": {
+    "profile": "Profil",
+    "settings": "Ustawienia"
+  },
+ 
+  "categories": {
+    "salary": "Wynagrodzenie",
+    "freelance": "Freelance",
+    "investments": "Inwestycje",
+    "gifts": "Prezenty",
+    "food_and_dining": "Jedzenie i restauracje",
+    "food_dining": "Jedzenie i restauracje",
+    "food & dining": "Jedzenie i restauracje",
+    "transportation": "Transport",
+    "shopping": "Zakupy",
+    "bills_and_utilities": "Rachunki i media",
+    "bills_utilities": "Rachunki i media",
+    "bills & utilities": "Rachunki i media",
+    "healthcare": "Opieka zdrowotna",
+    "travel": "Podróże",
+    "education": "Edukacja",
+    "other": "Inne"
+  },
+  "close": "Zamknij",
+  "dashboard": {
+    "title": "Panel główny",
+    "subtitle": "Przegląd Twojego stanu finansowego",
+    "totalIncome": "Łączne przychody",
+    "totalExpenses": "Łączne wydatki",
+    "currentBalance": "Aktualny bilans",
+    "expenseBreakdown": "Podział wydatków",
+    "expensesByCategory": "Wydatki według kategorii",
+    "recentTransactions": "Ostatnie transakcje",
+    "viewAll": "Zobacz wszystkie",
+    "presetThisMonth": "Ten miesiąc",
+    "presetLastMonth": "Poprzedni miesiąc",
+    "presetThisYear": "Ten rok",
+    "resetFilters": "Wyczyść filtry",
+    "currentYearLabel": "Rok",
+    "filters": {
+      "startDate": "Data początkowa",
+      "selectStartDate": "Wybierz datę początkową",
+      "endDate": "Data końcowa",
+      "selectEndDate": "Wybierz datę końcową",
+      "last7Days": "Ostatnie 7 dni",
+      "last30Days": "Ostatnie 30 dni",
+      "thisMonth": "Ten miesiąc",
+      "lastMonth": "Poprzedni miesiąc",
+      "thisYear": "Ten rok",
+      "resetFilters": "Resetuj filtry"
+    },
+    "charts": "Wykresy",
+    "monthlyComparison": "Miesięczne przychody vs wydatki",
+    "chartTooltips": {
+      "income": "Przychód",
+      "expense": "Wydatek",
+      "net": "Netto",
+      "amount": "Kwota",
+      "percentage": "Procent",
+      "ofTotal": "Z całkowitej",
+      "netProfit": "Zysk netto",
+      "netLoss": "Strata netto"
+    },
+    "noRecentTransactions": "Brak ostatnich transakcji.",
+    "noYearsAvailable": "Brak dostępnych lat",
+    "addFirstTransaction": "Dodaj pierwszą transakcję"
+  },
+  "dateRange": {
+    "start": "Data początkowa",
+    "end": "Data końcowa",
+    "to": "do",
+    "errors": {
+      "invalidRange": "Data końcowa nie może być wcześniejsza niż początkowa"
+    },
+    "presets": {
+      "last7Days": "Ostatnie 7 dni",
+      "last30Days": "Ostatnie 30 dni",
+      "thisMonth": "Bieżący miesiąc",
+      "lastMonth": "Poprzedni miesiąc",
+      "thisYear": "Bieżący rok"
+    },
+    "preset": "Ustaw zakres",
+    "noYearsAvailable": "Brak dostępnych lat"
+  },
+  "locale": "pl-PL",
+  "pagination": {
+    "previous": "Poprzednia strona",
+    "next": "Następna strona",
+    "page": "Strona {page}"
+  },
+  "baseLink": {
+    "label": "Odnośnik"
+  },
+  "baseSelect": {
+    "options": {
+      "INCOME": "Przychód",
+      "EXPENSE": "Wydatek"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 BudgetWise."
+  },
+  "seo": {
+    "home": {
+      "title": "BudgetWise - Inteligentna aplikacja do finansów osobistych i budżetowania",
+      "description": "Przejmij kontrolę nad swoimi finansami z BudgetWise. Inteligentne narzędzia do budżetowania, śledzenie wydatków i finansowe wskazówki. Zacznij za darmo już dziś!",
+      "keywords": "budżetowanie, finanse osobiste, śledzenie wydatków, planowanie finansowe, zarządzanie pieniędzmi"
+    }
+  },
+  "common": {
+    "loading": "Ładowanie..."
+  },
+  "error": "Błąd"
+}

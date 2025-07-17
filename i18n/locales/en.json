@@ -1,0 +1,209 @@
+{
+  "profile": {
+    "title": "Profile Settings",
+    "currencyLabel": "Preferred Currency",
+    "currencyDollar": "US Dollar ($)",
+    "currencyZloty": "Polish Złoty (zł)",
+    "currencyUSD": "US Dollar ($)",
+    "currencyPLN": "Polish Złoty (zł)",
+    "nameLabel": "Name",
+    "namePlaceholder": "Enter your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Enter your email address",
+    "saveButton": "Save Changes",
+    "languageLabel": "Application Language",
+    "notificationsLabel": "Notifications",
+    "notifyBudgetLabel": "Budget Exceed Alerts",
+    "notifyReminderLabel": "Expense Reminder"
+  },
+  "app": {
+    "name": "BudgetWise"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "expenses": "Expenses",
+    "income": "Income",
+    "transactions": "Transactions"
+  },
+  "transactions": {
+    "title": "Transactions",
+    "table": {
+      "date": "Date",
+      "description": "Description",
+      "category": "Category",
+      "type": "Type",
+      "amount": "Amount",
+      "actions": "Actions",
+      "noData": "No transactions found"
+    },
+    "search": {
+      "placeholder": "Search transactions..."
+    },
+    "meta": {
+      "description": "Manage your financial transactions",
+      "keywords": "transactions, budget, finances, money management",
+      "editDescription": "Edit an existing transaction in your budget management system",
+      "addDescription": "Add a new transaction to your budget management system"
+    },
+    "actions": {
+      "new": "New Transaction",
+      "loadDummyData": "Load Dummy Data"
+    },
+    "addSuccess": "Transaction added successfully!",
+    "addError": "Failed to add transaction",
+    "edit": "Edit Transaction",
+    "notFound": "Transaction not found",
+    "updateSuccess": "Transaction updated successfully!",
+    "updateError": "Failed to update transaction",
+    "amount": "Amount",
+    "description": "Description",
+    "date": "Date",
+    "type": "Type",
+    "category": "Category",
+    "update": "Update",
+    "add": "Add",
+    "amountRequired": "Amount is required",
+    "amountPositive": "Amount must be greater than 0",
+    "descriptionRequired": "Description is required",
+    "descriptionMin": "Description must be at least 3 characters",
+    "dateRequired": "Date is required",
+    "dateTooEarly": "Date cannot be earlier than {min}",
+    "dateTooLate": "Date cannot be later than {max}",
+    "dateInvalidRange": "Date must be between {min} and {max}",
+    "typeRequired": "Type is required",
+    "categoryRequired": "Category is required",
+    "cancel": "Cancel",
+    "types": {
+      "income": "Income",
+      "expense": "Expense"
+    },
+    "filters": {
+      "last7Days": "Last 7 days",
+      "last30Days": "Last 30 days",
+      "thisMonth": "This month",
+      "lastMonth": "Last month",
+      "thisYear": "This year"
+    },
+    "resetFilters": "Reset filters",
+    "addNew": "Add New Transaction"
+  },
+  "notifications": {
+    "title": "Notifications"
+  },
+  "user": {
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+  "categories": {
+    "salary": "Salary",
+    "freelance": "Freelance",
+    "investments": "Investments",
+    "gifts": "Gifts",
+    "food_and_dining": "Food & Dining",
+    "food_dining": "Food & Dining",
+    "food & dining": "Food & Dining",
+    "transportation": "Transportation",
+    "shopping": "Shopping",
+    "bills_and_utilities": "Bills & Utilities",
+    "bills_utilities": "Bills & Utilities",
+    "bills & utilities": "Bills & Utilities",
+    "healthcare": "Healthcare",
+    "travel": "Travel",
+    "education": "Education",
+    "other": "Other"
+  },
+  "close": "Close",
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Welcome back!",
+    "total_income": "Total Income",
+    "total_expenses": "Total Expenses",
+    "balance": "Balance",
+    "filters": {
+      "startDate": "Start Date",
+      "selectStartDate": "Select start date",
+      "endDate": "End Date",
+      "selectEndDate": "Select end date",
+      "last7Days": "Last 7 Days",
+      "last30Days": "Last 30 Days",
+      "thisMonth": "This month",
+      "lastMonth": "Last Month",
+      "thisYear": "This Year",
+      "resetFilters": "Reset Filters"
+    },
+    "resetFilters": "Reset Filters",
+    "totalIncome": "Total Income",
+    "totalExpenses": "Total Expenses",
+    "currentBalance": "Current Balance",
+    "expenseBreakdown": "Expense Breakdown",
+    "expensesByCategory": "Expenses by Category",
+    "recentTransactions": "Recent Transactions",
+    "viewAll": "View All",
+    "charts": "Charts",
+    "monthlyComparison": "Monthly Income vs Expenses",
+    "chartTooltips": {
+      "income": "Income",
+      "expense": "Expense",
+      "net": "Net",
+      "amount": "Amount",
+      "percentage": "Percentage",
+      "ofTotal": "Of Total",
+      "netProfit": "Net Profit",
+      "netLoss": "Net Loss"
+    },
+    "noRecentTransactions": "No recent transactions.",
+    "noYearsAvailable": "No years available",
+    "currentYearLabel": "Data for the current year",
+    "addFirstTransaction": "Add your first transaction",
+    "presetThisMonth": "This Month",
+    "presetLastMonth": "Last Month",
+    "presetThisYear": "This Year",
+    "resetFilters": "Reset Filters",
+    "currentYearLabel": "Year"
+  },
+  "dateRange": {
+    "start": "Start date",
+    "end": "End date",
+    "to": "to",
+    "errors": {
+      "invalidRange": "End date cannot be before start date"
+    },
+    "presets": {
+      "last7Days": "Last 7 days",
+      "last30Days": "Last 30 days",
+      "thisMonth": "This month",
+      "lastMonth": "Last month",
+      "thisYear": "This year"
+    },
+    "preset": "Preset"
+  },
+  "locale": "en-US",
+  "pagination": {
+    "previous": "Previous page",
+    "next": "Next page",
+    "page": "Page {page}"
+  },
+  "baseLink": {
+    "label": "Link"
+  },
+  "baseSelect": {
+    "options": {
+      "INCOME": "Income",
+      "EXPENSE": "Expense"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 BudgetWise."
+  },
+  "seo": {
+    "home": {
+      "title": "BudgetWise - Smart Personal Finance & Budgeting App",
+      "description": "Take control of your finances with BudgetWise. Smart budgeting tools, expense tracking, and financial insights. Start free today!",
+      "keywords": "budgeting, personal finance, expense tracking, financial planning, money management"
+    }
+  },
+  "common": {
+    "loading": "Loading..."
+  },
+  "error": "Error"
+}
