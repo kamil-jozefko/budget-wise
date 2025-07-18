@@ -21,7 +21,8 @@ export async function storageGet<T = unknown>(key: string): Promise<T | null> {
   try {
     const data = localStorage.getItem(key)
     return data ? JSON.parse(data) as T : null
-  } catch (e) {
+  }
+  catch {
     return null
   }
 }
@@ -29,7 +30,8 @@ export async function storageGet<T = unknown>(key: string): Promise<T | null> {
 export async function storageSet<T = unknown>(key: string, value: T): Promise<void> {
   try {
     localStorage.setItem(key, JSON.stringify(value))
-  } catch (e) {
+  }
+  catch {
     // handle error if needed
   }
 }
@@ -63,13 +65,10 @@ export function lsGet(key: string) {
   const hasLocalStorage = (typeof window !== 'undefined' && typeof window.localStorage !== 'undefined') || (typeof global !== 'undefined' && typeof global.localStorage !== 'undefined')
   if (!hasLocalStorage) return null
   if (!notifiedFallback.value) {
-    try {
-      if (typeof window !== 'undefined') {
-        useNotificationStore().notifyLocalStorageFallback()
-      }
-      notifiedFallback.value = true
+    if (typeof window !== 'undefined') {
+      useNotificationStore().notifyLocalStorageFallback()
     }
-    catch {}
+    notifiedFallback.value = true
   }
   const value = (typeof window !== 'undefined' && typeof window.localStorage !== 'undefined')
     ? window.localStorage.getItem(key)
@@ -84,7 +83,7 @@ export function lsGet(key: string) {
   }
 }
 
-export function lsSet(key: string, value: any) {
+export function lsSet(key: string, value: unknown) {
   const hasLocalStorage = (typeof window !== 'undefined' && typeof window.localStorage !== 'undefined') || (typeof global !== 'undefined' && typeof global.localStorage !== 'undefined')
   if (!hasLocalStorage) return
   try {
@@ -95,7 +94,9 @@ export function lsSet(key: string, value: any) {
       global.localStorage.setItem(key, JSON.stringify(value))
     }
   }
-  catch {}
+  catch {
+    return
+  }
 }
 
 export function lsDelete(key: string) {
@@ -109,5 +110,7 @@ export function lsDelete(key: string) {
       global.localStorage.removeItem(key)
     }
   }
-  catch {}
+  catch {
+    return
+  }
 }

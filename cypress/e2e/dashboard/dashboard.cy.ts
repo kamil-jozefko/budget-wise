@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 beforeEach(() => {
-  // @ts-ignore
+  // @ts-expect-error: custom command cy.addTransaction is not typed
   cy.addTransaction()
 })
 
@@ -14,7 +14,7 @@ it('should display dashboard stats (income, expenses, balance)', () => {
 
 it('should use quick date filters', () => {
   cy.visit('/dashboard')
-  cy.get('button').first().then($btn => {
+  cy.get('button').first().then(($btn) => {
     if ($btn.length) {
       cy.wrap($btn).click({ force: true })
       cy.contains(/income|przychody/i).should('exist')
@@ -25,7 +25,7 @@ it('should use quick date filters', () => {
 })
 
 it('should change year and verify data', function () {
-  cy.document().then(doc => {
+  cy.document().then((doc) => {
     const select = doc.querySelector('select#year-select') as HTMLSelectElement | null
     if (!select || select.options.length <= 1) {
       this.skip()

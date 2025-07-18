@@ -17,7 +17,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, watch, computed } from 'vue'
+import { ref, watch, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import LocaleSwitcher from '@/components/layout/LocaleSwitcher.vue'
 import BaseSelect from '@/components/ui/BaseSelect.vue'
@@ -41,13 +41,6 @@ definePageMeta({
 
 watch(currentCurrency, (newVal: string) => {
   currencyStore.setCurrency(newVal as 'zł' | '$')
-})
-
-onMounted(() => {
-  if (typeof window !== 'undefined') {
-    const storedLocale = localStorage.getItem('locale') as 'en' | 'pl' | null
-    currentLocale.value = storedLocale === 'pl' ? 'pl' : 'en'
-  }
 })
 
 watch(currentLocale, (val: 'en' | 'pl') => {

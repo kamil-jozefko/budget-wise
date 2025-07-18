@@ -32,7 +32,7 @@ describe('Transactions', () => {
   })
 
   it('should show validation errors on transaction form', function () {
-    cy.document().then(doc => {
+    cy.document().then((doc) => {
       const amount = doc.querySelector('input[name="amount"]')
       const desc = doc.querySelector('input[name="description"]')
       if (!amount || !desc) this.skip()
@@ -50,7 +50,7 @@ describe('Transactions', () => {
   })
 
   it('should delete a transaction (with confirmation)', function () {
-    cy.document().then(doc => {
+    cy.document().then((doc) => {
       const row = Array.from(doc.querySelectorAll('tr')).find(tr => tr.textContent?.includes('Edited transaction E2E'))
       if (!row) this.skip()
       cy.visit('/dashboard/transactions')
@@ -63,7 +63,7 @@ describe('Transactions', () => {
   })
 
   it('should list transactions with pagination, search and filter', function () {
-    cy.document().then(doc => {
+    cy.document().then((doc) => {
       const row = Array.from(doc.querySelectorAll('tr')).find(tr => tr.textContent?.includes('Test transaction E2E'))
       const rowEdited = Array.from(doc.querySelectorAll('tr')).find(tr => tr.textContent?.includes('Edited transaction E2E'))
       if (!row || !rowEdited) this.skip()
@@ -99,7 +99,7 @@ describe('Transactions', () => {
   })
 
   it('should show notification after add, edit, delete', function () {
-    cy.document().then(doc => {
+    cy.document().then((doc) => {
       const toast = doc.querySelector('.max-w-md')
       const descRow = Array.from(doc.querySelectorAll('tr')).find(tr => tr.textContent?.includes('Toast add E2E'))
       if (!toast || !descRow) this.skip()
@@ -122,7 +122,7 @@ describe('Transactions', () => {
   })
 
   it('should show validation errors in both languages', function () {
-    cy.document().then(doc => {
+    cy.document().then((doc) => {
       const amount = doc.querySelector('input[name="amount"]')
       const desc = doc.querySelector('input[name="description"]')
       if (!amount || !desc) this.skip()

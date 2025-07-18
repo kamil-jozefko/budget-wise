@@ -8,7 +8,12 @@ export default defineVitestConfig({
       'tests/integration/**/*.spec.ts',
       'tests/integration/**/*.test.ts',
     ],
-    environment: 'happy-dom',
+    environment: 'nuxt',
+    environmentOptions: {
+      nuxt: {
+        domEnvironment: 'happy-dom',
+      },
+    },
     setupFiles: ['./tests/setup/global-stubs.ts'],
     coverage: {
       include: [
